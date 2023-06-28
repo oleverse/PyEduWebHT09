@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "hometask-09"
+version = "0.1.0"
+description = ""
+authors = ["Oleksii Petrashov <oleksii.petrashov@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "hometask_09"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+lxml = "^4.9.2"
+requests = "^2.31.0"
+beautifulsoup4 = "^4.12.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
